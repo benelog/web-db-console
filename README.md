@@ -12,8 +12,12 @@ A JDBC client with web interface by Maven-exec-plugin and H2 console.
 		cd web-db-console
 		mvn exec:java
 
+3. Your web browser will show the UI of H2 Console.
 
-You can add JDBC drivers in pom.xml. The following example is for MariaDB.
+	![Login](http://file.benelog.net/web-db-console/console1.png)
+	![SQL Editor](http://file.benelog.net/web-db-console/console2.png)
+
+The data sources may be any DBMS supporting JDBC. You can add JDBC drivers in pom.xml. The following example is for MariaDB.
 
 		<dependency>
 			<groupId>org.jumpmind.symmetric.jdbc</groupId>

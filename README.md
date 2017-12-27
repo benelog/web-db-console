@@ -17,10 +17,16 @@ A JDBC client with web interface by Maven-exec-plugin and H2 console.
 	![Login](http://file.benelog.net/web-db-console/login.png)
 	![SQL Editor](http://file.benelog.net/web-db-console/sql-editor.png)
 
-The data sources may be any DBMS supporting JDBC. You can add JDBC drivers in pom.xml. The following example is for MariaDB.
+The data sources may be any DBMS supporting JDBC. You can add JDBC drivers in pom.xml. The following example is for MariaDB and PostgreSql.
 
 		<dependency>
 			<groupId>org.jumpmind.symmetric.jdbc</groupId>
 			<artifactId>mariadb-java-client</artifactId>
 			<version>1.1.1</version>
 		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.1.4</version>
+		</dependency>
+
